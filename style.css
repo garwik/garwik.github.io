@@ -1,0 +1,15 @@
+body {
+    background-color: seashell;
+}
+
+h1 {
+	color: rgba("0 0 0 0.7")
+	font-family: 'Playfair Display', serif;
+	font-size: 50px
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+}
