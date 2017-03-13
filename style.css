@@ -13,3 +13,11 @@ p {
 	font-family: 'Ubuntu', sans-serif;
 	font-style: italic;
 }
+
+h2 {
+	color: #FFF;
+}
+
+.circular--square {
+	border-radius: 50%;
+}
