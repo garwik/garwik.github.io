@@ -4,9 +4,11 @@ body {
 
 h1 {
     color: white;
+    font-family: 'Lucida Console', sans-serif;
     font-size: 50px;
 }
 
 h2, p, ul, li {
+	font-family: 'Lucida Console', sans-serif; 
     color: white;
 }
