@@ -2,6 +2,10 @@ body {
 	background-color: black;
 }
 
+h1{
+  font-size: 20px;
+}
+
 div.title {
   text-align: center;
   background-color: #463636;
@@ -18,5 +22,6 @@ div.submission {
 
 img.center {
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
