@@ -2,7 +2,7 @@ body {
 	background-color: black;
 }
 
-div {
+div.title {
   text-align: center;
   background-color: #463636;
   border: 5px solid red;
@@ -11,6 +11,9 @@ div {
 
 div.submission {
   text-align: center;
+  background-color: #463636;
+  border: 5px solid red;
+  padding: 15px;
 }
 
 div.eye {
