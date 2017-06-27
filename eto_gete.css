@@ -1,0 +1,14 @@
+body {
+	background-color: black;
+}
+
+div {
+  text-align: center;
+  background-color: lightgrey;
+  border: 10px solid red;
+  padding: 15px;
+}
+
+div.submission {
+  text-align: center;
+}
