@@ -5,9 +5,12 @@ body {
 div.title {
   font-size: 60px;
   font-family: 'Playfair Display SC', 'Times New Roman', serif;
+  color: #350000;
   text-align: center;
   background-color: #463636;
-  border: 5px solid red;
+  background-image: url(paper.gif);
+  background-repeat: repeat;
+  border: 5px solid darkred;
   padding: 15px;
 }
 
