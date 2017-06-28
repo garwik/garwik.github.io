@@ -4,6 +4,7 @@ body {
 
 div.title {
   font-size: 60px;
+  font-family: 'Playfair Display SC', 'Times New Roman', serif;
   text-align: center;
   background-color: #463636;
   border: 5px solid red;
@@ -13,7 +14,7 @@ div.title {
 div.submission {
   text-align: center;
   background-color: #463636;
-  border: 5px solid red;
+  border: 5px solid darkred;
   padding: 15px;
 }
 
