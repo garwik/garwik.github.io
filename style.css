@@ -1,20 +1,10 @@
 body {
-    background-color: seashell;
+    background-color: black;
 }
 
 h1 {
-	color: rgba("0 0 0 0.7")
+	color: white
 	font-family: 'Playfair Display', serif;
 	font-size: 50px
-	font-weight: 700;
+	text-align: center;
 }
-
-p {
-	font-family: 'Ubuntu', sans-serif;
-	font-style: italic;
-}
-
-h2 {
-	color: #FFF;
-}
-
