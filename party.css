@@ -1,5 +1,7 @@
 body {
    background-color: black;
+   background-image: url(inribleak.gif);
+   background-repeat: repeat;
 }
 
 h1 {
