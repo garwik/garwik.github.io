@@ -1,24 +1,16 @@
-var twt = document.getElementById("twt");
-var mail = document.getElementById("mail");
-var write = document.getElementById("social-prev");
+var discord = document.getElementById("discord");
 
 function preview(event)
 {
-	if(event.target == twt)
+	if(event.target == discord)
 	{
-		write.innerHTML = "twitter";
-	}
-	else
-	{
-		write.innerHTML = "mail me";
+		discord.innerHTML = "@garwik";
 	}
 }
 function unPreview(event)
 {
-	write.innerHTML = "";
+	discord.innerHTML = "discord";
 }
 
-twt.addEventListener("mouseover", preview);
-twt.addEventListener("mouseout", unPreview);
-mail.addEventListener("mouseover", preview);
-mail.addEventListener("mouseout", unPreview);
+discord.addEventListener("mouseover", preview);
+discord.addEventListener("mouseout", unPreview);

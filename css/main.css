@@ -6,16 +6,27 @@ C2CFB2 lg
 5B4834 dark
 */
 
+/*
+090302 black
+F7EE7F yellow
+FFFAE8 pretty much white
+F1A66A sandy
+F26157 red
+A54657 burg
+1C1912 brown
+
+*/
+
 
 body {
-	background-color: #D0D6B5;
-	color: #5B4834;
+	background-color: #FFFAE8;
+	color: #090302;
 	font-family: "Courier New", monospace;
 }
 
 a {
 	text-decoration: none;
-	color: #628D53;
+	color: #A54657;
 }
 
 a:hover {
@@ -43,77 +54,68 @@ a:hover {
 }
 
 .back-container {
-	display: flex;
-	justify-content: center;
 	padding-bottom: 30px;
 	padding-top: 10px;
-	border-bottom: 2px dotted #628D53;
+	border-bottom: 2px dotted #1C1912;
 	margin-bottom: 40px;
 }
 
-/* == about == */
-#about-heading {
+#t-heading {
 	text-align: center;
 }
 
+li {
+	list-style: none;
+}
+
+
+/* == about == */
 #about-container {
-	height: 25vh;
+	width: 50%;
+	margin: auto;
+	border: 1px solid black;
+	padding: 0.2em 1em 0.2em 1em;
+}
+
+#discord {
+	display: inline;
+}
+
+#social {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
+	width: 80%;
+	margin: auto;
 }
 
-#social-list {
-	list-style: none;
-	padding-left: 0;
-	
-}
-#social-list  li {
-	display: inline-block;
-	margin: 8px 8px;
+#social-active {
+	background-color: rgba(241, 166, 106, .3);
+	padding: 0 0.3em 0 0.3em;
+	border: 1px dashed #1C1912;
 }
 
-#social-prev {
+#social-inactive {
+	background-color: rgba(133, 92, 60, .3);
+	padding: 0 0.3em 0 0.3em;
+	border: 1px dashed #1C1912;
+	border-top: none;
+}
+
+#find-me {
 	text-align: center;
-	color: #628D53;
 }
 
 
 /* == gallery == */
-#g-container h1 {
-	text-align: center;
+#wip {
+	max-width: 300px;
+	min-width: 200px;
+	display: block;
+	margin: auto;
+	margin-bottom: 4em;
 }
 
-#g-button-container {
-	display: flex;
-	justify-content: center;
-	height: 30px;
-	margin-bottom: 40px;
-}
-
-#g-forwards, #g-backwards {
-	width: 10%;
-	height: 100%;
-	border-radius: 2px;
-	background-color: #C2CFB2;
-}
-
-#g-table-container p {
-	text-align: center;
-	color: #725E54;
-	margin-bottom: 40px;
-}
-#g-table-container img {
-	width: 60%;
-}
-
-td {
-	text-align: center;
-}
-
-@media screen and (min-width: 1000px) {
-	#g-table-container img {
-		width: 40%;
-	}
+#g-ex {
+	margin: auto;
+	width: 30%;
 }
