@@ -75,6 +75,7 @@ li {
 	margin: auto;
 	border: 1px solid black;
 	padding: 0.2em 1em 0.2em 1em;
+	margin-bottom: 3em;
 }
 
 #discord {
@@ -99,10 +100,6 @@ li {
 	padding: 0 0.3em 0 0.3em;
 	border: 1px dashed #1C1912;
 	border-top: none;
-}
-
-#find-me {
-	text-align: center;
 }
 
 
