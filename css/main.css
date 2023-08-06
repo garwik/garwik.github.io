@@ -116,3 +116,12 @@ li {
 	margin: auto;
 	width: 30%;
 }
+
+/* == software == */
+.sw-item {
+	width: 70%;
+	margin: auto;
+	background-color: rgba(241, 166, 106, .3);
+	padding: 0 0.3em 0 0.3em;
+	border: 1px dashed #1C1912;
+}
