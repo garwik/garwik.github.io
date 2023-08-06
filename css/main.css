@@ -81,6 +81,9 @@ li {
 #discord {
 	display: inline;
 }
+#mail {
+	text-decoration: underline;
+}
 
 #social {
 	display: flex;
