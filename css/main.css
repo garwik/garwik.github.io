@@ -1,12 +1,4 @@
 /*
-D0D6B5 light
-C2CFB2 lg
-628D53 grn
-725E54 lighter
-5B4834 dark
-*/
-
-/*
 090302 black
 F7EE7F yellow
 FFFAE8 pretty much white
@@ -14,7 +6,6 @@ F1A66A sandy
 F26157 red
 A54657 burg
 1C1912 brown
-
 */
 
 
@@ -22,6 +13,16 @@ body {
 	background-color: #FFFAE8;
 	color: #090302;
 	font-family: "Courier New", monospace;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(241, 166, 106, .3);
+	padding: 0.4em;
+	text-align: center;
 }
 
 a {
@@ -54,7 +55,7 @@ a:hover {
 }
 
 .back-container {
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	padding-top: 10px;
 	border-bottom: 2px dotted #1C1912;
 	margin-bottom: 40px;
