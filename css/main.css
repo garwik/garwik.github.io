@@ -10,8 +10,8 @@ A54657 burg
 
 
 body {
-	background-color: #FFFAE8;
-	color: #090302;
+	background-color: #050505;
+	color: #e0dbda;
 	font-family: "Courier New", monospace;
 }
 
@@ -20,7 +20,7 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: rgba(241, 166, 106, .3);
+	background-color: rgba(255, 255, 255, 0.055);
 	padding: 0.4em;
 	text-align: center;
 }
@@ -57,7 +57,7 @@ a:hover {
 .back-container {
 	padding-bottom: 10px;
 	padding-top: 10px;
-	border-bottom: 2px dotted #1C1912;
+	border-bottom: 2px dotted #e0dbda;
 	margin-bottom: 40px;
 }
 
@@ -74,7 +74,7 @@ li {
 #about-container {
 	width: 50%;
 	margin: auto;
-	border: 1px solid black;
+	border: 1px solid #e0dbda;
 	padding: 0.2em 1em 0.2em 1em;
 	margin-bottom: 3em;
 }
@@ -94,15 +94,15 @@ li {
 }
 
 #social-active {
-	background-color: rgba(241, 166, 106, .3);
+	background-color: rgba(255, 255, 255, 0.055);
 	padding: 0 0.3em 0 0.3em;
-	border: 1px dashed #1C1912;
+	border: 1px dashed #e0dbda;
 }
 
 #social-inactive {
-	background-color: rgba(133, 92, 60, .3);
+	background-color: rgba(133, 92, 60, 0);
 	padding: 0 0.3em 0 0.3em;
-	border: 1px dashed #1C1912;
+	border: 1px dashed #e0dbda;
 	border-top: none;
 }
 
@@ -125,7 +125,7 @@ li {
 .sw-item {
 	width: 70%;
 	margin: auto;
-	background-color: rgba(241, 166, 106, .3);
+	background-color: rgba(255, 255, 255, 0.055);
 	padding: 0 0.3em 0 0.3em;
-	border: 1px dashed #1C1912;
+	border: 1px dashed #e0dbda;
 }
