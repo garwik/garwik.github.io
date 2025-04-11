@@ -119,6 +119,8 @@ li {
 #g-ex {
 	margin: auto;
 	width: 30%;
+	padding: 0.2em 1em 0.2em 1em;
+	border: 1px solid #e0dbda;
 }
 
 /* == software == */
