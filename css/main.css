@@ -1,14 +1,3 @@
-/*
-090302 black
-F7EE7F yellow
-FFFAE8 pretty much white
-F1A66A sandy
-F26157 red
-A54657 burg
-1C1912 brown
-*/
-
-
 body {
 	background-color: #050505;
 	color: #e0dbda;
@@ -32,6 +21,20 @@ a {
 
 a:hover {
 	color: red;
+}
+
+#canvas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -55%);
+	
+	z-index: -1;
+}
+
+#sig {
+	width: 10%;
+	min-width: 200px;
 }
 
 .main-container {
